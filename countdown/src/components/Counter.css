@@ -1,0 +1,35 @@
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 250px;
+  padding: 40px 10px;
+  gap: 2rem;
+  user-select: none;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.counter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.counter-text {
+  font-size: 16px;
+}

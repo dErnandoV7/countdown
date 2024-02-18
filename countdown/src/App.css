@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  max-width: 600px;
+  padding: 1rem;
+  border-radius: 10px;
+}
