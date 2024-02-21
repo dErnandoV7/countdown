@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { CounterContext } from "../context/counterdownContext";
 
-import './Title.css'
+import "./Title.css";
 
 const Title = ({ title }) => {
-  return <h1>{title}</h1>;
+  const { event } = useContext(CounterContext);
+  const color = event.color
+  
+  return <h1 style={{ color: color }}>{title}</h1>;
 };
 
 export default Title;

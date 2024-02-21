@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 250px;
-  padding: 40px 10px;
+  min-height: 200px;
+  padding: 10px;
   gap: 2rem;
   user-select: none;
 }
